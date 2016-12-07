@@ -1,0 +1,21 @@
+package:
+  name: protobuf
+  version: 3.1.0
+
+build:
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  number: 0
+
+requirements:
+  build:
+    - python
+    - pip
+    - setuptools
+    - six
+
+  run:
+    - python
+    - pip
+    - setuptools
+    - six
